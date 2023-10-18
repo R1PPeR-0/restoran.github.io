@@ -1,0 +1,395 @@
+/*Шапка*/
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.header{
+    background-image: url(../drawable/bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-line{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.nav a{
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 40px;
+
+    transition: color 0.3s linear;
+}
+
+.nav a:last-child{
+    margin-right: 0px;
+}
+
+
+.nav a:hover{
+    color: #FF7400;
+}
+
+.nav{
+    margin-left: 268px;
+}
+
+.cart{
+    position: relative;
+    border-right: 1px #fff solid;
+    padding-right: 10px;
+    height: 50px;
+    margin-left: 150px;
+}
+
+.cart-img{
+    position: absolute;
+    top: 18px;
+    right: 15px;
+}
+
+.number a{
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.phone-text{
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+
+.phone-holder{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.phone{
+    margin-left: 34px;
+}
+
+.button{
+    background-color: #FF7400;
+    color: #fff;
+    padding: 14px 18px;
+    font-weight: 700;
+    transition:  background-color 0.2s linear;
+}
+
+.button:hover{
+    background-color: #ca620d;
+}
+
+.btn{
+    margin-left: auto;
+}
+
+.header-down{
+    position: relative;
+}
+
+.header-title{
+    color: #D67E35;
+    font-family: 'Tinos', serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    margin-top: 222px;
+}
+
+.header-subtitle{
+    font-size: 80px;
+    margin-bottom: 12px;
+}
+
+.header-suptitle{
+    position: relative;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-suptitle::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    left: 330px;
+    top: 11px;
+}
+
+.header-suptitle::before{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    left: 90px;
+    top: 11px;
+}
+
+.header-btn a{
+    background-color: #ff7400;
+    padding: 14px 28px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    transition: background-color 0.2s linear;
+}
+
+.header-btn a:hover{
+    background-color: #ca620d;
+}
+
+
+
+
+
+/*Карточки*/
+
+.cards-holder{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    width: 349px;
+    margin-right: 31px;
+    background-color: #fff;
+    margin-top: -80px;
+    padding: 0px 10px 15px 10px;
+}
+
+.card-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: 20px;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.card-title span{
+    color: #BC9060;
+}
+
+.card-desc{
+    text-align: center;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #656363;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*История*/
+
+
+.history{
+    margin-top: 166px;
+}
+
+
+.history-title{
+    display: flex;
+    gap: 15px;
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    width: 444px;
+    justify-content: center;
+}
+
+.history-title span{
+    color: #D67E34;
+}
+
+.history-desc{
+    margin-top: 25px;
+    color: #656363;
+    font-size: 16px;
+    font-weight: 400;
+    width: 444px;
+    text-align: center;
+}
+
+.history-number{
+    display: flex;
+    width: 444px;
+    justify-content: center;
+    margin-top: 125px;
+}
+
+.number-item{
+    margin-right: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: #BC9060;
+}
+
+.number-item:last-child{
+    margin-right: 0px;
+}
+
+.number-item span{
+   display:block;
+   color: #000;
+   font-size: 20px;
+   margin-bottom: 100px;
+}
+
+.history-holder{
+    display: flex;
+    justify-content: space-between;
+}
+
+.history-images{
+    position: relative;
+}
+
+.images-1{
+    position: absolute;
+    z-index: 4;
+    top: 13px;
+    left: -596px;
+}
+
+.images-2{
+    position: absolute;
+    z-index: 3;
+    top: -27px;
+    left: -389px;
+}
+
+.images-3{
+    position: absolute;
+    z-index: 4;
+    top: 162px;
+    left: -279px;
+}
+
+.images-4{
+    position: absolute;
+    z-index: 2;
+    top: 4px;
+    left: -289px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Подвал*/
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 60px 0px;
+}
+
+.footer-info{
+    display: flex;
+    gap: 300px;
+}
+
+.footer-title-2 span{
+    font-weight: 600;
+    display: block;
+    margin-bottom: 25px;
+    color: #FF7400;
+    font-size: 20px;
+}
+
+.footer-title-2 a{
+    display: block;
+    margin-bottom: 15px;
+    color: white;
+    padding-bottom: 8px;
+    border-bottom: 1px rgb(133, 133, 133) solid;
+    font-weight: 500;
+}
+
+.footer-title-1 span{
+    font-weight: 600;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 25px;
+    color: #FF7400;
+}
+
+.footer-title-1 p{
+    font-weight: 500;
+}
+
+.social-img img{
+    width: 40px;
+    height: 40px;
+}
+
+.social-img{
+    display: flex;
+    gap: 20px;
+}
+
+.social-web span{
+    font-weight: 600;
+    color: #FF7400;
+    display: block;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+

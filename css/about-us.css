@@ -1,0 +1,233 @@
+/*Шапка*/
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../drawable/bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.header-line{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.nav a{
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 40px;
+
+    transition: color 0.3s linear;
+}
+
+.nav a:last-child{
+    margin-right: 0px;
+}
+
+
+.nav a:hover{
+    color: #FF7400;
+}
+
+.nav{
+    margin-left: 268px;
+}
+
+.cart{
+    position: relative;
+    border-right: 1px #fff solid;
+    padding-right: 10px;
+    height: 50px;
+    margin-left: 150px;
+}
+
+.cart-img{
+    position: absolute;
+    top: 18px;
+    right: 15px;
+}
+
+.number a{
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.phone-text{
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+
+.phone-holder{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.phone{
+    margin-left: 34px;
+}
+
+.button{
+    background-color: #FF7400;
+    color: #fff;
+    padding: 14px 18px;
+    font-weight: 700;
+    transition:  background-color 0.2s linear;
+}
+
+.button:hover{
+    background-color: #ca620d;
+}
+
+.btn{
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Галерея*/
+.galery-title{
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 60px;
+}
+
+.galery-title span{
+    color: #FF7400;
+}
+
+.galery-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.garely-left{
+    margin-right: 20px;
+}
+
+.galery-down,
+.galery-up{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cook-title{
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    color: #fff;
+}
+
+.cook-title span{
+    color: #FF7400;
+}
+
+.cook-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cook{
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Подвал*/
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 60px 0px;
+}
+
+.footer-info{
+    display: flex;
+    gap: 300px;
+}
+
+.footer-title-2 span{
+    font-weight: 600;
+    display: block;
+    margin-bottom: 25px;
+    color: #FF7400;
+    font-size: 20px;
+}
+
+.footer-title-2 a{
+    display: block;
+    margin-bottom: 15px;
+    color: white;
+    padding-bottom: 8px;
+    border-bottom: 1px rgb(133, 133, 133) solid;
+    font-weight: 500;
+}
+
+.footer-title-1 span{
+    font-weight: 600;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 25px;
+    color: #FF7400;
+}
+
+.footer-title-1 p{
+    font-weight: 500;
+}
+
+.social-img img{
+    width: 40px;
+    height: 40px;
+}
+
+.social-img{
+    display: flex;
+    gap: 20px;
+}
+
+.social-web span{
+    font-weight: 600;
+    color: #FF7400;
+    display: block;
+    margin-bottom: 25px;
+    font-size: 20px;
+}

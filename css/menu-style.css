@@ -1,0 +1,272 @@
+/*Шапка*/
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../drawable/bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.header-line{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.nav a{
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 40px;
+
+    transition: color 0.3s linear;
+}
+
+.nav a:last-child{
+    margin-right: 0px;
+}
+
+
+.nav a:hover{
+    color: #FF7400;
+}
+
+.nav{
+    margin-left: 268px;
+}
+
+.cart{
+    position: relative;
+    border-right: 1px #fff solid;
+    padding-right: 10px;
+    height: 50px;
+    margin-left: 150px;
+}
+
+.cart-img{
+    position: absolute;
+    top: 18px;
+    right: 15px;
+}
+
+.number a{
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.phone-text{
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+
+.phone-holder{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.phone{
+    margin-left: 34px;
+}
+
+.button{
+    background-color: #FF7400;
+    color: #fff;
+    padding: 14px 18px;
+    font-weight: 700;
+    transition:  background-color 0.2s linear;
+}
+
+.button:hover{
+    background-color: #ca620d;
+}
+
+.btn{
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Меню*/
+
+.menu-title{
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    padding-top: 100px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 138px;
+}
+
+.menu-title span{
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    padding-top: 98px;
+    color: #FF7400;
+    text-align: center;
+    padding-bottom: 138px;
+}
+
+.menu-item{
+    background-color: #fff;
+    text-align: center;
+    width: 350px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    margin-right: 70px;
+}
+
+.menu-text{
+    font-family: "Tinos", serif;
+    font-size: 26px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+}
+
+.menu-subtext{
+    font-size: 16px;
+}
+
+.menu-btn{
+    background-color: #D67E34;
+    color: #fff;
+    padding: 16px 67px;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 5px 5px 10px 0px #00000040;
+    transition: background-color 0.2s linear;
+}
+
+.menu-btn:hover{
+    background-color: #ca620d;
+}
+
+.menu-button{
+    margin-top: 20px;
+}
+
+.price-image{
+    position: absolute;
+    right: 32px;
+    bottom: 0px;
+}
+
+.menu-image{
+    position: relative;
+}
+
+.price-420{
+    position: absolute;
+    bottom: 32px;
+    right: 56px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Подвал*/
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 60px 0px;
+}
+
+.footer-info{
+    display: flex;
+    gap: 300px;
+}
+
+.footer-title-2 span{
+    font-weight: 600;
+    display: block;
+    margin-bottom: 25px;
+    color: #FF7400;
+    font-size: 20px;
+}
+
+.footer-title-2 a{
+    display: block;
+    margin-bottom: 15px;
+    color: white;
+    padding-bottom: 8px;
+    border-bottom: 1px rgb(133, 133, 133) solid;
+    font-weight: 500;
+}
+
+.footer-title-1 span{
+    font-weight: 600;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 25px;
+    color: #FF7400;
+}
+
+.footer-title-1 p{
+    font-weight: 500;
+}
+
+.social-img img{
+    width: 40px;
+    height: 40px;
+}
+
+.social-img{
+    display: flex;
+    gap: 20px;
+}
+
+.social-web span{
+    font-weight: 600;
+    color: #FF7400;
+    display: block;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
